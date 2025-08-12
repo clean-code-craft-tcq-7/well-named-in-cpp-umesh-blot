@@ -1,6 +1,7 @@
 #include <iostream>
 #include <assert.h>
 #include <main.h>
+#include <test_main.h>
 
 
 int main() {
