@@ -9,3 +9,6 @@ extern void testPairToNumber(
     TelCoColorCoder::MajorColor major,
     TelCoColorCoder::MinorColor minor,
     int expectedPairNumber);
+
+// New aggregated additional tests
+extern void runAdditionalTests();
