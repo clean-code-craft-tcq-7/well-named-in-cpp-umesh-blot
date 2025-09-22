@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: build
-      run: g++ -std=c++17 -Wall -Wextra -o colorcoder -I prj/src/*.cpp test/src/*.cpp 
+      run: g++ -std=c++17 -Wall -Wextra -o colorcoder -I prj/src/*.cpp test/src/*.cpp -Iinclude
 
     - name: run
       run: ./colorcoder
